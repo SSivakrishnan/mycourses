@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+.coursepage{
+  margin: auto;
+  width: 80%;
+}
+.crspg-topnav{
+  height: 50px;
+  width: 80%;
+  margin: auto;
+  
+}
+.crspg-topnav h3{
+  display: block;
+    text-align: left;
+    padding: 25px 0px 35px 0px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+.flex-container{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.crspg-card{
+/* background-color: rgb(255 237 213); */
+height: 230px;
+    width: 450px;
+    margin-top: 40px;
+}
+.crspg-card:hover{
+height: 250px;
+width: 500px;
+box-shadow: -3px 5px 15px grey, 15px 15px 15px rgb(0 0 0 / 10%);
+}
+.crspg-img img{
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 25px;
+  margin-top: 35px;
+}
+.crspg-name{
+
+}
+.crspg-author{
+
+}
+.crspg-author img{
+  height: 36px;
+  border-radius: 60px;
+}
+.crspg-author p{
+  display: inline-block;
+  float: right;
+  margin: 0px;
+  margin-right: 80px;
+  margin-top: 10px;
+}
+.crspg-status{
+  width: 35%;
+  display: inline-block;
+  position: relative;
+  bottom: -30px;
+  left: -220px;
+  
+}
+.crspg-status h3{
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.crspg-status p{
+  margin: 0px;
+}
+.crspg-view-course{
+
+}
+.crspg-card hr{
+  width: 60%;
+}
+.crspg-view-course button{ 
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  color: rgb(222 73 80);
+  background-color: transparent;
+  font-weight: 700;
+  border: transparent;
+  text-decoration: none;
+}
+.crspg-view-course button:hover{
+ font-size: 15px; 
+}
+
+
+.crspg-view-course a span{
+
+}
+
+@media(max-width:430px){
+  .crspg-card{
+    background-color: rgb(255 237 213);
+height: 150px;
+    width: 280px;
+    margin-top: 40px;
+  }
+  .crspg-card:hover{
+  
+    height: 180px;
+    width: 310px;
+  }
+
+
+  .crspg-img img{
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 17px 0px 0px 17px;
+   
+  }
+  .crspg-author img{
+    height: 18px;
+    border-radius: 30px;
+  }
+  .crspg-author p{
+  
+    font-size: 13px;
+    margin: 0px;
+    margin-right: 40px;
+  }
+  .crspg-status{
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+    left: -85px;
+  }
+  .crspg-status h3{
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  .crspg-status p{
+    font-size: 12px;
+  }   
+  .crspg-view-course button{
+    margin: 0px;
+  
+  }
+  .crspg-name h3{
+    font-size: 14px;
+  }
+    
+  
+
+
+
+}

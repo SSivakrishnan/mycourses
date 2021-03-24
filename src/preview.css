@@ -1,0 +1,476 @@
+.previewpage{
+    width: 80%;
+    margin: auto;
+}
+.backtocourse{
+    width: 80%;
+    margin: auto;
+}
+.backtocourse a{
+    display: block;
+    text-align: left;
+    padding: 25px 0px 35px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+/* 1............ */
+
+.pp-crsdiv{
+    border: solid rgb(229 229 229) 2px;
+    width: 80%;
+    margin: auto;
+    min-height: 280px;
+}
+.pp-crs-heading{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 25px;
+}
+.pp-crsdiv-status{
+    width: 90%;
+    height: 65px;
+    margin: auto;
+}
+.pp-progressbar{
+   
+    background: rgb(242 242 242);
+    margin: auto;
+    height: 6px;
+    border-radius: 20px;
+}
+.pp-pb-juice{
+    background-color: rgb(64 185 144);
+   
+    height: 6px;
+    border-radius: 20px;
+}
+.pp-crsdiv-status h4{
+    display: inline;
+    float: left;
+   
+}
+.pp-crsdiv-status h5{
+    display: inline;
+    float: right;
+    font-size: 16px;
+  
+}
+.pp-crsdiv p{
+    width: 90%;
+    margin-left: 5%;
+    text-align: start;
+}
+
+/* 2.............. */
+.pp-nxtcls-heading{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 40px;
+    font-size: 24px;
+}
+.pp-nxtcls{
+    border: solid rgb(229 229 229) 2px;
+    width: 80%;
+    margin: auto;
+    min-height: 280px;
+}
+.pp-nxtcls-top{
+    height: 140px;
+}
+.pp-nxtcls-top h2{
+    text-align: left;
+    margin-left: 5%;
+}
+.pp-nxtcls-top hr{
+    width: 94%
+}
+.pp-nxtcls-top h4{
+    display: inline;
+    float: left;
+    margin-left: 5%;
+}
+.pp-nextcls-date{
+    display: inline-block;
+    margin: 21px 5% 21px 0px;
+    float: right;
+}
+.pp-nxtcls-bottom{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+}
+.cpyclslink{
+    padding: 7px;
+    font-weight: 600;
+    float: left;
+    border-radius: 20px;
+    border: rgb(26 170 233) solid 2px;
+    background: white;
+    color: rgb(26 170 233);
+}
+.cpyclslink:hover{
+    padding: 7px;
+    font-weight: 600;
+    float: left;
+    border-radius: 20px;
+    border: white solid 2px;
+    background:  rgb(26 170 233);
+    color: white
+}
+
+.copyicon{
+    display: inline;
+    
+    background-color: rgb(26 170 233);
+    padding: 3px;
+    border-radius: 20px;
+    color: white;}
+.joincls{
+    background: rgb(255 175 45);
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    float: right;
+    border: rgb(255 175 45) solid 2px;
+}
+.joincls:hover{
+    background-color: rgb(252 156 0);
+}
+.pp-nxtcls a{
+    color: rgb(217 84 86);
+    float: right;
+    margin-right: 5%;
+}
+
+/* 3........... */
+.pp-tutordetail-heading{
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.pp-tutordetail{
+    border: solid rgb(237 254 255) 2px;
+    width: 80%;
+    margin: auto;
+    min-height: 280px;
+    background-color: rgb(237 254 255);
+}
+.pp-tutordetail-top{
+    width: 90%;
+    margin: 45px auto auto auto;
+    height: 100px;
+}
+.pp-tutordetail-top img{
+    height: 65px;
+    border-radius: 35px;
+    float: left;
+}
+.pp-tutordetail-top h4{
+    float: left;
+    margin: 0px 0px 0px 25px;
+    font-size: 22px;
+}
+.pp-tutordetail-top p{
+    display: block;
+    float: left;
+    padding-left: 27px;
+    margin-top: 5px;
+    margin: 0px;
+}
+.author-rating{
+    background-color: rgb(31 38 39);
+    color: white;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 15px;
+    position: relative;
+    float: right;
+    top: -60%;
+}
+.chat{
+    width: 40%;
+    height: 45px;
+    margin: 8px 5% auto 5%;
+    font-size: 16px;
+    background-color: white;
+    font-weight: 600;
+    border: solid white;
+    float: left;
+}
+.chat:hover{
+    background-color: rgb(58 62 71);
+    border: solid rgb(58 62 71);
+    color:white;
+}
+.track{
+    width: 40%;
+    height: 45px;
+    margin: auto 5% auto 5%;
+    font-size: 16px;
+    background-color: white;
+    font-weight: 600;
+    border: solid white;
+}
+.track:hover{
+    background-color: rgb(58 62 71);
+    border: solid rgb(58 62 71);
+    color:white;
+}
+.rwr{
+        width: 90%;
+    margin: 40px auto 20px auto;
+    height: 45px;
+    background-color: rgb(63 186 140);
+    color: white;
+    font-weight: 600;
+}
+.rwr:hover{
+    background-color: rgb(0 164 102);
+}
+
+/* 4............... */
+
+
+.pp-crsoverview{
+width: 80%;
+margin: auto;
+margin-top: 30px;
+border: solid rgb(229 229 229) 2px;
+}
+.crsoverview-heading{
+width: 100%;
+height: 60px;
+background-color: rgb(58 62 71);
+
+}
+.crsoverview-heading h2{
+    text-align: left;
+    margin: 0px;
+    color: rgb(245 245 243);
+    padding: 14px;
+}
+.crsoverview-content{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(245 245 243);
+}
+.crsoverview-content span{
+    background-color: rgb(149 149 147);
+    padding: 7px;
+    border-radius: 27px;
+    margin-right: 10px;
+    color: white;
+
+}
+.crsoverview-content:hover{
+   
+    background-color: rgb(252 179 25);
+}
+.crsoverview-content:hover span{
+background-color:  rgb(58 62 71);
+
+
+}
+.crsoverview-content h4{
+    text-align: left;
+    margin: 3px;
+    
+    padding: 14px;
+}
+.hidding-part[data-vp=false]{
+    display: none;
+    }
+.hidding-part[data-vp=true]{
+        display: block;
+ }
+.view-part{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: solid white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.pp-review{
+    width: 80%;
+    margin: auto;
+    height: 60px;
+background-color: rgb(65 184 142);
+}
+.pp-review:hover{
+    background-color:rgb(7 186 123);
+}
+.pp-review p{
+    padding: 18px;
+    font-size: 17px;
+    color: white;
+}
+.pp-helpsupport{
+    width: 80%;
+    margin: 30px auto 30px auto;
+    height: 100px;
+}
+.help-logo{
+    display: inline-block;
+    float: left;
+    width: 30%;
+    padding: 40px 0px 40px 0px;
+}
+.help-logo svg{
+    background-color: black;
+    font-size: 32px;
+    color: white;
+    padding: 18px;
+    border-radius: 35px;
+}
+.helpsupport{
+    display: inline;
+    width: 70%;
+    float: right;
+    padding: 40px 0px 40px 0px;
+}
+.helpsupport h5{
+    text-align: left;
+    margin: 0px;
+}
+.helpsupport hr{
+
+}
+.helpsupport p{
+    text-align: left;
+    margin: 0px;
+}
+
+
+@media(max-width:430px){
+    .previewpage{
+        width: 90%;
+        margin: auto;
+    }
+
+    .backtocourse a{
+        
+        font-size: 21px;
+ }
+
+
+ .pp-crsdiv{
+    min-height: 150px;
+   
+    
+}
+
+.pp-crs-heading{
+  
+    font-size: 14px;
+}
+.pp-crsdiv-status h4{
+    font-size: 11px;
+}
+.pp-crsdiv-status h5{
+   
+    font-size: 10px;
+  
+}
+.pp-crsdiv p{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 11px;
+    text-align: start;
+}
+.pp-nxtcls-heading{
+    font-size: 14px;}
+.pp-nxtcls{
+    min-height: 150px;
+    }
+.pp-nxtcls-top h2{
+font-size: 14px;
+}
+.pp-nxtcls-top h4{
+    font-size: 11px;
+}
+.pp-nxtcls-top {
+    height: 84px;
+}
+
+.pp-nextcls-date{
+    font-size: 12px;
+    margin: 11px 5% 11px 0px;
+   }
+.pp-nxtcls-bottom{
+   
+height: 20px;
+    
+}
+.cpyclslink{
+    padding: 3px;
+    font-weight: 500;
+   font-size: 10px;
+    border-radius: 25px;
+   
+}
+.joincls{
+   
+    padding: 4px 8px 4px 8px;
+   
+    font-weight: 300;
+   
+}
+.pp-nxtcls a {
+    font-size: 10px;
+    padding-top: 7px;
+}
+
+.pp-tutordetail-heading{
+  
+    font-size: 14px;
+}
+
+.pp-tutordetail-top img {
+    height: 35px;}
+
+    .pp-tutordetail-top h4 {
+        float: left;
+        margin: 0px 0px 0px 5px;
+        font-size: 15px;
+}
+.pp-tutordetail-top p {
+    padding-left: 44px;
+    font-size: 12px;
+}
+.author-rating {
+        font-size: 10px;
+    }
+
+.chat{
+    margin: 0px 5% auto 5%;
+    font-size: 13px;
+}
+.track{
+    font-size: 12px;
+}
+.crsoverview-heading h2 {
+    font-size: 15px;
+    padding: 21px;
+}
+.crsoverview-content h4 {
+    font-size: 14px;}
+
+.view-part{
+    font-size: 14px;
+}
+
+.pp-review p {
+    font-size: 14px;}
+.help-logo svg {
+        padding: 10px;}
+.helpsupport p {
+            font-size: 9px;
+}
+
+}
